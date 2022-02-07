@@ -25,6 +25,6 @@ void loop()
 
   else{
     delay(100);
-    servo_3.write(360);
+    servo_3.write(375);
   }
 }
