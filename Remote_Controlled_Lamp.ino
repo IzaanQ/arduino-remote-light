@@ -12,7 +12,7 @@ void setup()
 
   Serial.begin(9600);
   Serial.println(digitalRead(2));
-
+  delay(200);
 }
 
 void loop()
