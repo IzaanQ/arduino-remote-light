@@ -19,7 +19,7 @@ void loop()
 {
   if (digitalRead(2) == 0) {
     delay(200);
-    servo_3.write(0);
+    servo_3.write(15);
     Serial.println(digitalRead(2));
   } 
 
